@@ -1,0 +1,14 @@
+$kind: http-request
+name: POST
+url: "{{URL}}/tasks"
+method: POST
+body:
+  type: json
+  content: |-
+    {
+        "title": "My first task",
+        "description": "Testing the API",
+        "status": false,
+        "dueDate": "2026-06-01"
+    }
+order: 1779113193600

@@ -1,0 +1,15 @@
+$kind: http-request
+url: "{{URL}}/tasks/6a0b1e44b2eff1cfbba71ad6"
+method: PUT
+body:
+  type: json
+  content: |-
+    {
+        "_id": "6a0b1e44b2eff1cfbba71ad6",
+        "title": "My first task - v1",
+        "description": "Testing the API",
+        "status": false,
+        "dueDate": "2026-06-01T00:00:00.000Z",
+        "__v": 0
+    }
+order: 4132354673913849

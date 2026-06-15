@@ -1,0 +1,5 @@
+$kind: http-request
+name: GET ALL
+url: "{{URL}}/tasks"
+method: GET
+order: 4450379101715785

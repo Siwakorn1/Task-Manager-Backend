@@ -1,0 +1,5 @@
+$kind: http-request
+name: New Request
+url: "{{URL}}/tasks/6a0b1e44b2eff1cfbba71ad6"
+method: DELETE
+order: 4495846175307887
